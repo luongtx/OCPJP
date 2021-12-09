@@ -1,0 +1,3 @@
+OutputStream
+normal mode: creatte new file
+append mode: retain file content, all operation will be append

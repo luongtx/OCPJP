@@ -1,0 +1,19 @@
+Volatile
+Using volatile variables reduces the risk of memory consistency errors, 
+because any write to a volatile variable establishes a happens-before relationship with subsequent reads of that same variable. 
+This means that changes to a volatile variable are always visible to other threads.
+
+
+Livelock
+A thread often acts in response to the action of another thread. If the other thread's action is also a response to the action of another thread, then livelock may result. As with deadlock, livelocked threads are unable to make further progress. However, the threads are not blocked — they are simply too busy responding to each other to resume wor
+
+
+Fork Join Pool
+
+The ForkJoinPool is the heart of the framework. It is an implementation of the ExecutorService that manages worker threads and provides us with tools to get information about the thread pool state and performance.
+
+Worker threads can execute only one task at a time, but the ForkJoinPool doesn’t create a separate thread for every single subtask. Instead, each thread in the pool has its own double-ended queue (or deque, pronounced deck) which stores tasks.
+
+
+RecursiveAction
+This pattern can be used to develop your own RecursiveAction classes. To do this, create an object which represents the total amount of work, chose a suitable threshold, define a method to divide the work, and define a method to do the work.

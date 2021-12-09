@@ -1,0 +1,18 @@
+exception: 
+- child call parent constructor
+- try with resource: close throw exception
+- Autoclosable closed two times
+jdbc: 
+- ResultSet two time
+- load the driver class jdbc 3.0: Class.forName
+class_design: 
+- shape square
+stream:
+- flatMapToInt -> IntStream, flatMap -> stream
+- print the count of string elements whose length is greater than three: use filter
+- A stream cannot be consumed more than once (correct ans)
+- stream execution mode can't be change during processing(The most recent sequential or parallel mode setting applies to the execution of the entire stream pipeline)
+javaNIO2:
+- Files.copy file not exit: NoSuchFileException
+- Files.list: The files in the ... directory are listed
+- The data.doc, data.txt and data.xml files ...: The program prints the content of the three files: 

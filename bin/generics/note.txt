@@ -1,0 +1,12 @@
+extends keyword is used for both class and interface. 
+
+lowerbound not working in class
+
+The wildcard (?) is never used as a type argument for a generic method invocation, a generic class instance creation, or a supertype.
+
+static declaration of type parameter is not allowed, only instance declaration is possible.
+
+In generics syntax, Parameterized types are not polymorphic,
+
+Unbound type is replaced by Object in compile time
+
